@@ -1,9 +1,30 @@
-var frutas = [
+var data = new Date();
+console.log(
+  data.getDate() + '/' + (data.getMonth() + 1) + '/' + data.getFullYear()
+);
+
+/* for (i = 1; i <= 5; i++) {
+  console.log(i);
+} */
+
+/* var count = 1;
+while (count <= 5) {
+  console.log(count);
+  count++;
+} */
+
+/* var idade = prompt('Informe sua idade:');
+
+if (idade >= 18) alert('maior de idade');
+else alert('menor de idade');
+ */
+/* var frutas = [
   { nome: 'maçã', cor: 'vermelha' },
   { nome: 'uva', cor: 'verde' },
 ];
 console.log(frutas);
-console.log(frutas[0].nome);
+console.log(frutas[0].nome); */
+
 /* var lista = ['maça', 'pêra', 'banana'];
 lista.push('uva'); //inclui um item na lista
 lista.pop(); //exclui um item na lista
