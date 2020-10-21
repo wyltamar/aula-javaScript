@@ -1,3 +1,29 @@
+function clicou() {
+  //console.log('clicou no botão');
+  document.getElementById('message').innerHTML = `Clicou no botão`;
+}
+function resetar() {
+  //console.log('clicou no botão');
+  document.getElementById('message').textContent = '';
+}
+
+function redirect() {
+  window.open('https://www.espn.com');
+}
+
+function trocar() {
+  document.getElementById('caixaTexto').placeholder = 'passou o mause';
+}
+
+function clique() {
+  document.getElementById('caixaTexto').placeholder = 'clicou';
+}
+
+function imprimeValor(elemento) {
+  console.log(elemento.value);
+}
+
+/*
 function soma(n1, n2) {
   return n1 + n2;
 }
