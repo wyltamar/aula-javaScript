@@ -1,8 +1,27 @@
-var data = new Date();
-console.log(
-  data.getDate() + '/' + (data.getMonth() + 1) + '/' + data.getFullYear()
-);
+function soma(n1, n2) {
+  return n1 + n2;
+}
 
+function replaceFrase(frase, nome, novo_nome) {
+  return frase.replace('França', 'Brasil!!');
+}
+
+function validaIdade(idade) {
+  if (idade >= 18) return true;
+  else return false;
+}
+
+var idade = prompt('Informe sua idade:');
+console.log(validaIdade(idade));
+
+//alert(soma(1, 9));
+//alert(replaceFrase('Vai França', 'França', 'Brasil'));
+
+/* var data = new Date();
+/* console .log(
+/*   data. getDate() + '/' + (data.getMonth() + 1) + '/' + data.getFullYear()
+/* ); */
+/*  */
 /* for (i = 1; i <= 5; i++) {
   console.log(i);
 } */
